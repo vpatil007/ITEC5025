@@ -1,0 +1,37 @@
+
+1. week2.py 
+    This script implements a basic chatbot capable of performing arithmetic operations and responding to user inputs. It includes the following key functionalities:
+
+    Functions:
+    1. processRequests(): Main loop that processes user input, handles arithmetic operations, and responds to specific keywords.
+    2. processArithmetic(input: str): Identifies and evaluates arithmatic operations in user input using regular expressions.
+    3. processPhrases(input: str): processes natural language phrases related to comparisons, such as "greater than," "less than," and "equal to."
+    4. printErrorProcessing(input: str): Prints an error message when the input cannot be processed.
+    5. printExample(): Displays examples of supported chatbot prompts.
+    6. printExit(): Prints a goodbye message when the user exits the chatbot.
+    7. printGreeting(): Prints a greeting message and examples of supported operations.
+    8. chatbot(): Entry point for the chatbot, which starts the interaction with the user.
+    
+    Usage:
+    Run the script directly to start the chatbot: python week2.py
+
+    Key Features:
+    Uses regular expressions to identify arithmetic operations.
+    Modular design for easy extension (e.g., adding more operations or phrase processing).
+    
+    Entry Point:
+
+    The chatbot starts only when the script is executed directly, using the if __name__ == "__main__": construct.
+
+2. unittest test_week2.py
+    Execute the tests using the following command: python -m unittest test_week2.py
+
+3. References:
+    Microsoft Copilot. (2025). Microsoft Copilot. Copilot.microsoft.com; Microsoft. https://copilot.microsoft.com/
+    Python. (2024). unittest — Unit testing framework — Python 3.8.2 documentation. Docs.python.org. https://docs.python.org/3/library/unittest.html
+    re — Regular expression operations — Python 3.10.0 documentation. (n.d.). Docs.python.org. https://docs.python.org/3/library/re.html#module-re
+‌
+
+‌
+
+   
